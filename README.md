@@ -1,48 +1,39 @@
-# Foundation for Sites Template
+# Reading Time
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+A website design to express my personality, convey who I am and what I do. Designed and Built by [Michael Anor](https://github.com/michaelannor) in May 2017.
 
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+## Getting Started
 
-## Installation
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-To use this template, your computer needs:
+### Prerequisites
 
-- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
-- [Git](https://git-scm.com/)
+What things you need to install the software and how to install them
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
-
-### Using the CLI
-
-Install the Foundation CLI with this command:
-
-```bash
-npm install foundation-cli --global
+```
+CodeKit
+NodeJS
 ```
 
-Use this command to set up a blank Foundation for Sites project with this template:
+## Built With
 
-```bash
-foundation new --framework sites --template basic
-```
+* [Grunt](https://gruntjs.com/) - Task runner for automation (compilation, etc/)
+* [SCSS](https://www.getpostman.com/) - For styling.
+* [Google Fonts](https://www.fonts.google.com/) - For fonts.
+* [Zurb Foundation](foundation.zurb.com) - For baseline styling.
+* [Favicomatic](http://www.favicomatic.com/) - For generating favicons for different browsers and device types.
+* [Pepper by Swat.io](https://pepper.swat.io/) - For contact widget
 
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
+## Versioning
 
-### Manual Setup
+I used [Git](http://git-scm.org/) for versioning.
 
-To manually set up the template, first download it with Git:
+## Authors
 
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
-```
+* **Michael Annor** - [Michael Anor](https://github.com/michaelannor)
 
-Then open the folder in your command line, and install the needed dependencies:
+## Acknowledgments
 
-```bash
-cd projectname
-npm install
-bower install
-```
-
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+* Hat tip to Agatha Maison (for development assistance, testing and review) Barimah Effah (for ideas and design critique) and Phoebe Prah (for copywriting assistance).
+* Design Inspiration from [Laura Elizabeth](http://www.lauraelizabeth.co/), [Aikomo Onaopemipo](http://opemipo.com/), [David Kadavy](http://kadavy.net/)
+* Readme template by [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
