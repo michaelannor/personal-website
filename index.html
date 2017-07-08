@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Annor</title>
+    <!-- <link rel="stylesheet" href="css/app.css"> -->
+    <link rel="stylesheet" href="scss/app.css">
+    <script src="js/app.js"></script>
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://www.michaelannor.design/images/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.michaelannor.design/images/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.michaelannor.design/images/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.michaelannor.design/images/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://www.michaelannor.design/images/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://www.michaelannor.design/images/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="http://www.michaelannor.design/images/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="http://www.michaelannor.design/images/favicon/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="Michael Annor"/>
+    <meta name="msapplication-TileColor" content="#FEFFF8" />
+    <meta name="msapplication-TileImage" content="http://www.michaelannor.design/images/favicon/mstile-144x144.png" />
+
+  </head>
+  <body>
+
+
+    <ul class="navmenu">
+    <li class="navlinks"><a class="active" href="index.html">Me</a></li>
+    <li class="navlinks"><a href="works.html">Work</a></li>
+    <li class="navlinks"><a href="play.html">Play</a></li>
+    </ul>
+
+    <div class="header-text">
+  <h1 class="">I’m an aspiring <a onclick="marginNote('note-unicorn')" class="transition-highlight">unicorn.</a> Always learning, always asking questions but most importantly <a onclick="marginNote('note-work')" class="transition-highlight">always doing.</a>..</h1>
+</div>
+
+<p id="note-unicorn" class="fade-in margin-text">"We call them unicorns because they are supposed to be mythical creatures-something that doesn’t exist in the real world. That’s how the nickname came about." <a target="_blank" href="http://www.designprinciplesftw.com/collections/ten-principles-for-good-design">read more...</a></p>
+<p id="note-work" class="fade-in margin-text">"Schooling provided a good background in theory and a framework for thinking. Yet those designers found their most used skills came from challenging work projects." <a target="_blank" href="http://www.designprinciplesftw.com/collections/ten-principles-for-good-design">read more...</a></p>
+<p id="note-design" class="fade-in margin-text">*Read Deiter Ram's 10 <span class="strikeout">priciples</span> principles of design <a target="_blank" href="http://www.designprinciplesftw.com/collections/ten-principles-for-good-design">read more...</a></p>
+
+<div class="paper">
+  <div class="margin-content">
+    <!-- <img src="images/doodle.svg" style="position: absolute; left: 85px; top: 0%;"> -->
+  </div>
+  <h2>Because improvement only comes by doing. You’d envy my eye for <a onclick="marginNote('note-design')" class="highlight">great design</a> and the hands that craft them. My name is Michael Annor, I’m a creative designer and I make stuff</h2>
+  <br><br>
+  <h2>That's it.</h2>
+</div>
+
+<script type="text/javascript">
+  function marginNote(element_id){
+    var margin_elements = document.querySelectorAll(".margin-text");
+    for (var i = 0; i < margin_elements.length; i++) {
+        margin_elements[i].style.display = "none";
+    }
+    var element = document.getElementById(element_id);
+    element.style.display = 'block';
+  }
+</script>
+
+<script async src='https://pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiJlYTA4MDgiLCJjdXN0b21Db2xvciI6dHJ1ZSwiaWNvbiI6InBhY21hbiIsInByb25vdW4iOiJtZSIsImxhbmd1YWdlIjoiZW4iLCJicmFuZGVkIjpmYWxzZSwiaW50cm9UZXh0IjoiIiwiY2hhbm5lbHMiOltbInR3aXR0ZXIiLCJrb2JieWFubm9yIiwic29jaWFsIl0sWyJpbnN0YWdyYW0iLCJrb2JieWFubm9yIiwic29jaWFsIl0sWyJnaXRodWIiLCJodHRwczovL2dpdGh1Yi5jb20vbWljaGFlbGFubm9yIiwic29jaWFsIl0sWyJtZWRpdW0iLCJtaWNoYWVsYW5ub3IiLCJzb2NpYWwiXSxbInBob25lIiwiKzIzMyAyNDEgMjcxIDQzNCIsImNsYXNzaWMiXSxbImVtYWlsIiwiaGVsbG9AbWljaGFlbGFubm9yLmNvbSIsImNsYXNzaWMiXV19'></script>
+</body>
+
+</html>
