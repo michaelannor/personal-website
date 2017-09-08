@@ -1,4 +1,4 @@
-# Reading Time
+# Personal Website (May 2017)
 
 A website design to express my personality, convey who I am and what I do. Designed and Built by [Michael Anor](https://github.com/michaelannor) in May 2017.
 
